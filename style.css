@@ -4,21 +4,42 @@ div{
 
 body{
     background-color: black;
-    height: 100vh;
+    height:  100vh;
 }
 
 #container{
     height: 100%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    align-items: flex-start;
-    align-content: flex-start;
-    background-color: slateblue;
+}
+
+#nav{
+    width: 20%;
+    height: 100%;
+    background-color: cornflowerblue;
 }
 
 #header, #footer{
-    flex-basis: 85%;
-    max-height: 10%;
+    width: 80%;
+    height: 10%;
     background-color: silver;
+}
+
+#articleAside{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    background-color: slategrey;
+}
+
+#article{
+    width: 80%;
+    background-color:teal;
+}
+
+#aside{
+    width: 20%;
+    background-color: royalblue;
 }
