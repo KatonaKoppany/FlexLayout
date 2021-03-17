@@ -4,12 +4,11 @@ div{
 
 body{
     background-color: black;
-    height: 900px;
+    height: 100vh;
 }
 
 #container{
     height: 100%;
-    display: flex;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -20,7 +19,7 @@ body{
 
 #header, #footer{
     flex-basis: 80%;
-    max-height: 20%;
+    max-height: 10%;
     background-color: silver;
 }
 
@@ -55,3 +54,31 @@ body{
     background-color:cadetblue
 }
 
+
+@media only screen and (max-width: 500px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container{
+        flex-direction: column;
+        width: 500px;
+    }
+
+    #header, #footer{
+        flex-basis: 500px;
+        max-height: 10%;
+        background-color: silver;
+    }
+
+    #nav{
+        max-width: 500px;
+        height: 20%;
+    }
+
+    #articleAside{
+        width: 500px;
+        flex-direction: column;
+    }
+}
