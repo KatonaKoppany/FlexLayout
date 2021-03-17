@@ -18,67 +18,7 @@ body{
 }
 
 #header, #footer{
-    flex-basis: 80%;
+    flex-basis: 85%;
     max-height: 10%;
     background-color: silver;
-}
-
-
-#nav{
-    flex-basis: 20%;
-    height: 100%;
-    background-color: slategray;
-}
-
-#all{
-    display: flex;
-    flex-direction: column;
-    flex-basis: 80%;
-    height: 100%;
-}
-
-#articleAside{
-    display: flex;
-    flex-basis: 100%;
-    height: 100%;
-}
-
-#article{
-    flex-basis: 80%;
-    height: 100%;
-    background-color: steelblue;
-}
-
-#aside{
-    flex-basis: 20%;
-    background-color:cadetblue
-}
-
-
-@media only screen and (max-width: 500px){
-    body{
-        display: flex;
-        flex-direction: column;
-    }
-
-    #container{
-        flex-direction: column;
-        width: 500px;
-    }
-
-    #header, #footer{
-        flex-basis: 500px;
-        max-height: 10%;
-        background-color: silver;
-    }
-
-    #nav{
-        max-width: 500px;
-        height: 20%;
-    }
-
-    #articleAside{
-        width: 500px;
-        flex-direction: column;
-    }
 }
