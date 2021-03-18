@@ -4,7 +4,8 @@ div{
 
 body{
     background-color: black;
-    height:  100vh;
+    height: 100vh;
+    margin: 0;
 }
 
 #container{
@@ -16,19 +17,19 @@ body{
 }
 
 #nav{
-    width: 20%;
+    width: 10%;
     height: 100%;
     background-color: cornflowerblue;
 }
 
 #header, #footer{
-    width: 80%;
+    width: 90%;
     height: 10%;
     background-color: silver;
 }
 
 #articleAside{
-    width: 80%;
+    width: 90%;
     height: 80%;
     display: flex;
     background-color: slategrey;
